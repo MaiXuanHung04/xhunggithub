@@ -1,0 +1,340 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-trailer{
+    width: 1000px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
+    border-radius: 5px;
+    object-fit:cover;
+   
+}
+
+.main-trailer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.main-infor{
+    display: flex;
+}
+
+
+.main-title{
+   
+    padding-left: 100px;
+}
+
+.main-img{
+    position: absolute;
+    width: 200px;
+    height: 290px;
+    top: 430px;
+}
+
+.divpage-title{
+    margin-left: 230px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: "Bellefair", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.infor {
+   font-size: 15px;
+   margin-top: 10px;
+   font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.performer {
+    list-style: none;
+    display: flex;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -10px;
+}
+.performer span {
+    padding: 10px;
+   
+   
+}
+
+.performer li {
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 3px;
+    justify-items: center;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+.performer li:hover{
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+    color: white;
+}
+
+.content-cotainer{
+    width: 1000px;
+    margin-top: 300px;
+    padding-left: 100px;
+    font-family: "Bellefair";
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.content-containerTop{
+    margin-bottom: 20px;
+    border-left: solid 3px rgb(69, 6, 255);
+    padding: 5px;
+}
+
+.content-cotainer2{
+    width: 1000px;
+    margin-top: 20px;
+    padding-left: 100px;
+    font-family: "Bellefair";
+    font-weight: 500;
+    font-style: normal;
+   
+ 
+}
+
+.content-containerTop2{
+    margin-bottom: 20px;
+    border-left: solid 3px rgb(69, 6, 255);
+    padding: 5px;
+}
+
+.content-btn{
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    border-bottom: solid 3px rgb(95, 95, 247);
+    
+}
+
+.content-btn button{
+    width: 70px;
+    height: 60px;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 1px 1px 2px black;
+    margin-right: 10px;
+    font-family: "Bellefair";
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 4px;
+   
+
+}
+
+.content-btn button:focus{
+    background-color: rgb(92, 123, 250);
+    color: white;
+}
+
+.cinema-container{
+    display: flex;
+    padding-left: 100px ;
+    width: 600px;
+    height: auto;
+    margin-bottom: 100px;
+  
+
+}
+
+.cinema{
+    margin-top: 20px;
+}
+
+.cinema-left{
+    width: 400px;
+    height: auto;
+}
+
+.cinema h5{
+    font-size: 17px;
+    font-family: "Bellefair";
+    font-weight: 500;
+    font-style: normal;
+}
+
+.time{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.time button{
+    width: 120px;
+    height: 30px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-family: "Bellefair";
+    font-weight: 1000;
+    font-style: normal;
+    box-shadow: 1px 1px 2px rgb(93, 93, 93);
+}
+
+.time button:focus{
+    background-color: rgb(92, 123, 250);
+    color: white;
+}
+
+.cinema-right{
+    display: block;
+    margin-left: 50px;
+
+}
+
+.div-watch button{
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 150px;
+    border: none;
+    background-color: white;
+    font-family: "Bellefair";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+.fa-solid.fa-tv{
+    margin-left: 130px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.div-number{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px ;
+    margin-top: 20px;
+}
+
+.number{
+    width: 50px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 2px;
+    font-family: "Bellefair";
+    font-weight: 1000;
+
+}
+
+
+.icon-left{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.icon-right{
+    margin-top: -15px;
+    margin-left: 380px;
+}
+
+.submit-btn{
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin-left: 400px;
+    border-radius: 4px;
+    background-color: green;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+
+
+.show-number{
+    background-color: rgb(92, 123, 250);
+    color : white;
+}
+
+.finish{
+    width: 450px;
+    height: 150px;
+    box-shadow: 1px 1px 2px rgb(25, 244, 57);
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 260%;
+    margin-left: 19%;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    display: none;
+    border: solid 3px greenyellow;
+}
+
+.finish h3 {
+    margin-bottom: 20px;
+    color: rgb(28, 212, 25);
+}
+
+.finish button{
+    width: 130px;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(110, 243, 16);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.finished{
+    display: block;
+
+}
+
+.icon-finish{
+    
+    background-color: rgb(39, 218, 39);
+    position: absolute;
+    top: -30px;
+    width: 50px;
+    height: 50px;
+    left: 45%;
+    z-index: 100;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+}
